@@ -9,15 +9,6 @@ import matplotlib.tri as mtri
 
 from scipy.spatial import Delaunay
 
-from pdegs.dynamics import DynamicsFunction
-
-
-class MaskedDynamicsFunction(DynamicsFunction):
-    def forward(self, t, x):
-        mask = self.params['mask']
-        graph_params = self.params['graph_params']
-        return self.model(x, **graph_params) * mask
-
 
 def get_mask(x, domain='unit_square'):
     mask = np.ones((x.shape[0], 1))
