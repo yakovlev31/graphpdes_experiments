@@ -1,6 +1,6 @@
 # Description
 
-Experiments from [Learning continuous-time PDEs from sparse data with graph neural networks](https://openreview.net/forum?id=aUX5Plaq7Oy).
+Code for reproducing experiments from [Learning continuous-time PDEs from sparse data with graph neural networks](https://openreview.net/forum?id=aUX5Plaq7Oy).
 
 Data can be downloaded [here](https://drive.google.com/file/d/1K5LsXU8JRln5OSJ049jims4v98l2U9cm/view?usp=sharing).
 
